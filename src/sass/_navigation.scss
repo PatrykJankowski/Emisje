@@ -1,0 +1,39 @@
+.navbar {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  width: 100%;
+
+  height: $xl;
+  display: flex;
+  align-items: center;
+  background: white;
+
+  &__logo {
+    display: inline-flex;
+    height: $m;
+  }
+
+  &__nav {
+    display:inline-flex;
+    justify-content: flex-end;
+    flex: 1;
+    color: #2b2b2b;
+
+    ul {
+      display: flex;
+      align-items: center;
+      list-style: none;
+    }
+
+    li {
+      padding-left: $l;
+    }
+
+    a {
+      font-size: 24px;
+      color: #2b2b2b;
+      font-weight: 300;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.footer {
+  padding: 60px 0;
+  background: #E5E5E5;
+
+  &__link {
+    display: block;
+    padding: 2px 0;
+    color: $text-main-color;
+  }
+}

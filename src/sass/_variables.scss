@@ -1,0 +1,56 @@
+/* Spacing */
+$xs: 10px;
+$s: 20px;
+$m: 40px;
+$l: 60px;
+$xl: 80px;
+$xxl: 120px;
+
+$margin-small: $xs;
+$margin: $s;
+$margin-big: $m;
+
+/* Sizes */
+$navigation-height: 70px;
+$navigation-top-height: 48px;
+
+/* Colors */
+$blue: #163963;
+$gray: #E5E5E5;
+$white: #fff;
+
+$primary: #fbba00;
+$secondary: $gray;
+//$tertiary: $gray;
+
+//$header-color: $tertiary;
+$text-main-color: #000;
+
+/* Fonts */
+$text-size: 1rem;
+$h1-size: 54px;
+$h2-size: 54px;
+$h3-size: 36px;
+$h4-size: 36px;
+$h5-size: 16px;
+
+/* Resolutions */
+$desktop: 1024px;
+$tablet: 768px;
+
+
+// Mixins
+@mixin for-size($size) {
+    @if $size == tablet {
+        @media (min-width: 768px) { @content; }
+    } @else if $size == tablet-landscape {
+        @media (min-width: 992px) { @content; }
+    } @else if $size == desktop {
+        @media (min-width: 1200px) { @content; }
+    }
+}
+
+@mixin font-size($fontSize) {
+    font-size: ($fontSize / 16) + rem;
+}
+

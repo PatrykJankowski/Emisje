@@ -1,0 +1,27 @@
+.header {
+
+  &--primary {
+    color: $primary;
+  }
+
+  &--center {
+    text-align: center;
+  }
+
+  &--w-600 {
+    max-width: 680px;
+  }
+
+  &--mb-xs {
+    margin-bottom: $xs;
+  }
+
+  &--mb {
+    margin-bottom: $xl;
+  }
+
+  &--z-index {
+    position: relative;
+    z-index: 1;
+  }
+}

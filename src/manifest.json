@@ -1,0 +1,12 @@
+{
+  "name": "grzybowski",
+  "short_name": "grzybowski",
+  "icons": [{
+    "src": "/grzybowski/wp-content/themes/grzybowski/img/logo-512x512.png",
+    "sizes": "1912x318",
+    "type": "image/png"
+  }],
+  "start_url": "/",  "display": "standalone",
+  "background_color": "#67b0d6",
+  "theme_color": "#67b0d6"
+}

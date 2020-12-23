@@ -1,0 +1,24 @@
+.button {
+    display: inline-block;
+    padding: 12px 60px;
+    border-radius: 8px;
+    background: #fff;
+    color: $primary;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+
+    &--bg {
+        background: $primary;
+        color: $white;
+    }
+
+    &--mt {
+        margin-top: $m;
+    }
+
+    &--mt-xl {
+        margin-top: $xl;
+    }
+}

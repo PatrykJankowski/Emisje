@@ -1,0 +1,23 @@
+.section {
+  padding: $l 0;
+
+  &--pts {
+    padding-top: $l;
+  }
+
+  &--pt-xxl {
+    padding-top: $xxl;
+  }
+
+  &--ptn {
+    padding-top: 0;
+  }
+
+  &--pbn {
+    padding-bottom: 0;
+  }
+
+  &--separator {
+    border-bottom: 2px solid #fff;
+  }
+}
